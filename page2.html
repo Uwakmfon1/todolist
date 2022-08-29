@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form name="newtodoform">
+            <H1>TODO list</H1>
+            <hr>
+            <div class="formItem">
+                <br>
+                <label for="todo">What do you want to do</label> <br> <br>
+                <input type="text" name="todo" id="todo" placeholder="TYPE INTO THIS BOX">
+            </div>
+            
+            <button type="submit" >save Todo </button>
+            <button id="clearTodoList">&#128465 Clear TODO </button>
+        </form>
+        <hr>
+    
+        <h3>Items to do:</h3>
+        <ul id="todolist">
+            no items in to do list
+        </ul>
+    
+        <hr>
+        <p id="todostatus"></p>
+    
+    </main>
+    <script src="page2.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.img-container{
+    /* padding: 1em; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: lightblue;
+    margin: 2em;
+    /* background-image: url('./img/language.jpg'); */
+    /* padding-bottom: 1em; */
+}
+
+#image{
+    width: 100%;
+    display: block;
+    height: 100%;
+    
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+#image::after{
+
+background: red;
+}
